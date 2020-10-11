@@ -7,8 +7,6 @@ import org.jline.terminal.TerminalBuilder
  */
 object MainClass {
   def main(args: Array[String]): Unit = {
-    // println("concat arguments = " + foo(args))
-
     var width = 80
     try {
       val terminal = TerminalBuilder.terminal()
